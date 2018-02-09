@@ -4,7 +4,8 @@
 ## Setup
 * Clone repo and change dir to it
 * `npm install`
-* `node ./node_modules/cordova-rave/lib/index.js`
+* `cd node_modules/cordova-rave && npm start`
 * Follow prompt entering neccessary credentials
+* `npm run build`
 * `cordova platform add browser`
 * `cordova run browser`
